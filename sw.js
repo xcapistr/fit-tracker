@@ -8,7 +8,8 @@ self.addEventListener('install', function(event) {
           '/styles.css',
           '/script.js',
           '/chart.js',
-          '/img/*'
+          '/img/plus.svg',
+          'https://www.gstatic.com/charts/loader.js'
         ])
       })
   );
