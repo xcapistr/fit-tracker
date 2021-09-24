@@ -12,24 +12,20 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="App Title" />
-
-    <script
-      type="text/javascript"
-      src="https://www.gstatic.com/charts/loader.js"
-    ></script>
-    <script type="text/javascript" src="./chart.js"></script>
+    <script src="./apexcharts.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
   </head>
   <body>
     <div id="header"><h1 id="title">FitTracker</h1></div>
     <div id="content">
       <div class="chart-card">
-        <div id="chart_div" style="height: 300px"></div>
+        <div id="chart"></div>
       </div>
       <div class="chart-card">
-        <div id="chart_div2" style="height: 150px"></div>
+        <div id="chart2"></div>
       </div>
       <div class="chart-card">
-        <div id="chart_div3" style="height: 150px"></div>
+        <div id="chart3"></div>
       </div>
     </div>
     <div id="footer">
@@ -37,6 +33,6 @@
         <img src="img/plus.svg" alt="add" title="add" />
       </button>
     </div>
-    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./chart.js"></script>
   </body>
 </html>

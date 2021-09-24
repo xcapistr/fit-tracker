@@ -9,7 +9,7 @@ self.addEventListener('install', function(event) {
           '/script.js',
           '/chart.js',
           '/img/plus.svg',
-          'https://www.gstatic.com/charts/loader.js'
+          '/apexcharts.min.js'
         ])
       })
   );

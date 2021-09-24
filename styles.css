@@ -79,5 +79,9 @@ body {
   margin: 20px;
   max-width: 100%;
   overflow: hidden;
-  padding: 20px 0;
+  padding: 20px 10px 10px;
+}
+
+.apexcharts-legend-series {
+    padding-top: 20px !important;
 }
